@@ -1,0 +1,31 @@
+body{
+    height: 70vh;
+    width: 100%;
+    background: linear-gradient(black,red, black);
+    overflow-y: hidden;
+}
+.evenodd{
+    background: transparent;
+    width: 45%;
+    color: white;
+    padding: 20px;
+    margin: 200px auto;
+}
+#displayResult{
+    font-size: 24px;
+}
+
+/* Second Index */
+.modulus{
+    background: transparent;
+    width: 45%;
+    color: white;
+    padding: 20px;
+    margin: 200px auto;
+}
+
+@media screen and (max-width:476px) {
+    .evenodd{
+        width: 100%;
+    }
+}
